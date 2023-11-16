@@ -14,12 +14,12 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  *
  */
 @SpringBootApplication
-@Theme(value = "movie.theater")
+@Theme(value = "movie.theater") 
 @PWA(name = "Movie Theater", shortName = "Movie")
 public class Application implements AppShellConfigurator {
 
     public static void main(String[] args) {
         SpringApplication.run(Application.class, args);
     }
-
+        
 }
